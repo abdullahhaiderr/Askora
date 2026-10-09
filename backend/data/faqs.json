@@ -1,0 +1,382 @@
+[
+  {
+    "id": "orders-01",
+    "question": "How do I track my order?",
+    "answer": "Open **My orders** in your account and select an order to view its tracking link. Tracking becomes available after the parcel ships.",
+    "alternatives": [
+      "Where is my package?",
+      "Can I check the delivery status?",
+      "How to track a parcel"
+    ],
+    "category": "Orders & delivery"
+  },
+  {
+    "id": "orders-02",
+    "question": "When will my order ship?",
+    "answer": "Orders are usually prepared within **1–2 business days** after payment is confirmed. You will receive a dispatch email once your package leaves our warehouse.",
+    "alternatives": [
+      "How long to process an order?",
+      "When do you dispatch orders?"
+    ],
+    "category": "Orders & delivery"
+  },
+  {
+    "id": "orders-03",
+    "question": "How long does delivery take?",
+    "answer": "Standard delivery typically takes **3–7 business days** after dispatch. Express delivery typically takes **1–3 business days**, depending on destination.",
+    "alternatives": [
+      "What is the shipping time?",
+      "How fast is delivery?"
+    ],
+    "category": "Orders & delivery"
+  },
+  {
+    "id": "orders-04",
+    "question": "Do you offer international shipping?",
+    "answer": "This demo store currently ships only within the **United States**. International checkout is not supported.",
+    "alternatives": [
+      "Can you ship to another country?",
+      "Do you deliver overseas?"
+    ],
+    "category": "Orders & delivery"
+  },
+  {
+    "id": "orders-05",
+    "question": "Can I change my delivery address?",
+    "answer": "Contact support as soon as possible with your order number. Address changes are possible only **before dispatch**; we cannot guarantee changes after shipment.",
+    "alternatives": [
+      "I entered the wrong shipping address",
+      "How do I update my order address?",
+      "Change the address of an order",
+      "I need to change the delivery address on my order"
+    ],
+    "category": "Orders & delivery"
+  },
+  {
+    "id": "orders-06",
+    "question": "Can I cancel my order?",
+    "answer": "You can request cancellation **before your order ships** by contacting support. Once shipped, you can use the return process after delivery if the item is eligible.",
+    "alternatives": [
+      "I want to cancel a purchase",
+      "How can I stop my order?"
+    ],
+    "category": "Orders & delivery"
+  },
+  {
+    "id": "orders-07",
+    "question": "What should I do if my package is missing?",
+    "answer": "Check the tracking page and nearby delivery locations first. If the tracking status says delivered but you cannot find the package, contact support with your order number.",
+    "alternatives": [
+      "Tracking says delivered but nothing arrived",
+      "My parcel is lost"
+    ],
+    "category": "Orders & delivery"
+  },
+  {
+    "id": "orders-08",
+    "question": "Can I order without an account?",
+    "answer": "Yes. **Guest checkout** is available. Use the email address on your order to receive confirmation and tracking updates.",
+    "alternatives": [
+      "Is guest checkout allowed?",
+      "Do I need to register to buy?"
+    ],
+    "category": "Orders & delivery"
+  },
+  {
+    "id": "returns-01",
+    "question": "What is your return policy?",
+    "answer": "Eligible unused items can be returned within **30 days of delivery**, in their original condition and packaging. Final-sale items and gift cards are not returnable.",
+    "alternatives": [
+      "How many days do I have to return?",
+      "Can I return an item I bought?",
+      "Is there a return window?",
+      "What is the window for returns?"
+    ],
+    "category": "Returns & refunds"
+  },
+  {
+    "id": "returns-02",
+    "question": "How do I start a return?",
+    "answer": "Contact support with your order number and the item you would like to return. We will share return instructions and confirm eligibility.",
+    "alternatives": [
+      "Where do I request a return?",
+      "I want to send something back",
+      "How do I send back an item?",
+      "Send an item back"
+    ],
+    "category": "Returns & refunds"
+  },
+  {
+    "id": "returns-03",
+    "question": "When will I receive my refund?",
+    "answer": "Approved refunds are initiated within **5 business days** of return inspection. Your bank or payment provider may need an additional **3–10 business days** to post the credit.",
+    "alternatives": [
+      "How long until money is refunded?",
+      "Refund processing time",
+      "How long is the refund process",
+      "Refund processing duration"
+    ],
+    "category": "Returns & refunds"
+  },
+  {
+    "id": "returns-04",
+    "question": "Can I exchange an item?",
+    "answer": "We do not offer direct exchanges in this demo policy. Return an eligible item and place a new order for the preferred product or size.",
+    "alternatives": [
+      "Can I change the size after delivery?",
+      "How to swap an item"
+    ],
+    "category": "Returns & refunds"
+  },
+  {
+    "id": "returns-05",
+    "question": "Who pays for return shipping?",
+    "answer": "For a change-of-mind return, the customer covers return shipping. If you received a damaged or incorrect item, contact support so we can help with a prepaid return label.",
+    "alternatives": [
+      "Is return postage free?",
+      "Do I pay to return?"
+    ],
+    "category": "Returns & refunds"
+  },
+  {
+    "id": "returns-06",
+    "question": "What if my item arrives damaged?",
+    "answer": "Please contact support within **48 hours** of delivery. Include your order number and clear photographs of the packaging and the damaged item so we can review a replacement or refund.",
+    "alternatives": [
+      "I received a broken product",
+      "My order arrived defective"
+    ],
+    "category": "Returns & refunds"
+  },
+  {
+    "id": "payments-01",
+    "question": "Which payment methods do you accept?",
+    "answer": "The demo store accepts **Visa, Mastercard, American Express, and PayPal**. Available payment options are shown at checkout.",
+    "alternatives": [
+      "Can I pay with PayPal?",
+      "What credit cards work?"
+    ],
+    "category": "Payments"
+  },
+  {
+    "id": "payments-02",
+    "question": "Is it safe to pay on your website?",
+    "answer": "Payment details are handled by the checkout payment processor over encrypted connections. Askora does not store or request card numbers in chat.",
+    "alternatives": [
+      "Is checkout secure?",
+      "Are my credit card details safe?"
+    ],
+    "category": "Payments"
+  },
+  {
+    "id": "payments-03",
+    "question": "Why was my payment declined?",
+    "answer": "Check your card details, expiration date, available funds, and any bank verification prompts. If the issue continues, contact your card issuer or try another supported method.",
+    "alternatives": [
+      "My card was rejected",
+      "I cannot complete payment"
+    ],
+    "category": "Payments"
+  },
+  {
+    "id": "payments-04",
+    "question": "Can I use two payment methods on one order?",
+    "answer": "Split payments are **not supported** in this demonstration store. Please choose one accepted payment method at checkout.",
+    "alternatives": [
+      "Can I split my payment?",
+      "Pay partly by card and partly by PayPal"
+    ],
+    "category": "Payments"
+  },
+  {
+    "id": "payments-05",
+    "question": "Do your prices include sales tax?",
+    "answer": "Applicable sales tax is calculated at checkout based on your shipping address and displayed before you confirm the order.",
+    "alternatives": [
+      "How is sales tax calculated?",
+      "Is tax added at checkout?"
+    ],
+    "category": "Payments"
+  },
+  {
+    "id": "payments-06",
+    "question": "Where can I find my receipt?",
+    "answer": "An order receipt is emailed to the address used at checkout. Signed-in customers can also review order details under **My orders**.",
+    "alternatives": [
+      "How do I get an invoice?",
+      "Can you resend my receipt?"
+    ],
+    "category": "Payments"
+  },
+  {
+    "id": "account-01",
+    "question": "How can I reset my password?",
+    "answer": "Select **Forgot password** on the sign-in screen, enter your registered email, and follow the reset link. Check spam if the email is missing.",
+    "alternatives": [
+      "I forgot my password",
+      "How to recover my login?",
+      "Cannot remember account password",
+      "Help me reset login password",
+      "Resetting my log in password"
+    ],
+    "category": "Account"
+  },
+  {
+    "id": "account-02",
+    "question": "How do I create an account?",
+    "answer": "Select **Sign up**, enter your name, email, and a strong password, then follow the email verification instructions.",
+    "alternatives": [
+      "Where can I register?",
+      "How can I sign up?",
+      "How to create new profile",
+      "Make a new account"
+    ],
+    "category": "Account"
+  },
+  {
+    "id": "account-03",
+    "question": "How do I update my email address?",
+    "answer": "Sign in, open **Account settings**, and update your email address. You may need to verify the new address before it becomes active.",
+    "alternatives": [
+      "Change my account email",
+      "Can I switch my login email?"
+    ],
+    "category": "Account"
+  },
+  {
+    "id": "account-04",
+    "question": "How can I delete my account?",
+    "answer": "Email **support@northstarsupply.example** from your registered address and request account deletion. The support team will explain the verification and data-retention process.",
+    "alternatives": [
+      "Remove my profile",
+      "Close my account permanently"
+    ],
+    "category": "Account"
+  },
+  {
+    "id": "account-05",
+    "question": "How do I update my saved address?",
+    "answer": "Sign in and open **Account settings → Addresses** to add, edit, or remove saved addresses. Existing dispatched orders are not changed automatically.",
+    "alternatives": [
+      "Edit shipping address in profile",
+      "Where do I manage addresses?"
+    ],
+    "category": "Account"
+  },
+  {
+    "id": "account-06",
+    "question": "Can I view my previous orders?",
+    "answer": "Yes. Sign in and open **My orders** to see your previous purchases, invoices, and available tracking links.",
+    "alternatives": [
+      "Where is purchase history?",
+      "Find my old orders",
+      "What is my shopping history",
+      "Where can I see shopping history"
+    ],
+    "category": "Account"
+  },
+  {
+    "id": "products-01",
+    "question": "How can I find the right product size?",
+    "answer": "Each applicable product page has a **Size guide** with measurements. Compare them to a similar item you already own before ordering.",
+    "alternatives": [
+      "Where is the sizing chart?",
+      "Which size should I choose?"
+    ],
+    "category": "Products"
+  },
+  {
+    "id": "products-02",
+    "question": "Are products covered by a warranty?",
+    "answer": "Warranty coverage varies by product and manufacturer. See the **Warranty** section on each product page or contact support with the product name.",
+    "alternatives": [
+      "Does it have warranty?",
+      "What is the product guarantee?",
+      "Is there any product warranty",
+      "Does this product have a warranty"
+    ],
+    "category": "Products"
+  },
+  {
+    "id": "products-03",
+    "question": "How can I check if an item is in stock?",
+    "answer": "Availability is shown on each product page. If an item is marked **Out of stock**, it cannot be purchased until inventory is replenished.",
+    "alternatives": [
+      "Is this available?",
+      "How do I see stock levels?"
+    ],
+    "category": "Products"
+  },
+  {
+    "id": "products-04",
+    "question": "Will you restock sold-out items?",
+    "answer": "Some popular items are restocked, but availability dates are not guaranteed. Check the product page periodically for updates.",
+    "alternatives": [
+      "When is an item coming back?",
+      "Do sold out products return?"
+    ],
+    "category": "Products"
+  },
+  {
+    "id": "products-05",
+    "question": "Can I get product recommendations?",
+    "answer": "Browse the product categories and use the filters to compare items. For specific advice, contact support with your budget and intended use.",
+    "alternatives": [
+      "Help me choose a product",
+      "Can someone recommend an item?"
+    ],
+    "category": "Products"
+  },
+  {
+    "id": "products-06",
+    "question": "Where can I find product care instructions?",
+    "answer": "Check the **Care & materials** section on a product page and the manufacturer label. Follow those instructions to preserve the item.",
+    "alternatives": [
+      "How to clean the item?",
+      "Product washing instructions"
+    ],
+    "category": "Products"
+  },
+  {
+    "id": "support-01",
+    "question": "How can I contact support?",
+    "answer": "Email **support@northstarsupply.example** or use the contact form on the Support page. Include your order number for purchase-related questions.",
+    "alternatives": [
+      "How do I reach customer service?",
+      "Contact customer support"
+    ],
+    "category": "Support"
+  },
+  {
+    "id": "support-02",
+    "question": "What are your working hours?",
+    "answer": "Our demo support desk operates **Monday–Friday, 9:00 AM–6:00 PM Eastern Time**, excluding U.S. federal holidays.",
+    "alternatives": [
+      "When is support open?",
+      "What time can I call?"
+    ],
+    "category": "Support"
+  },
+  {
+    "id": "support-03",
+    "question": "How soon will support respond?",
+    "answer": "The demo support team aims to reply to email inquiries within **one business day**. Requests received outside business hours are reviewed the next business day.",
+    "alternatives": [
+      "How long for a support reply?",
+      "When will customer service email back?"
+    ],
+    "category": "Support"
+  },
+  {
+    "id": "support-04",
+    "question": "Do you offer phone support?",
+    "answer": "Phone support is not available for this demonstration store. Please email **support@northstarsupply.example** or use the contact form.",
+    "alternatives": [
+      "Can I talk to someone on the phone?",
+      "What is your helpline number?",
+      "Can I call you by phone",
+      "May I call customer support"
+    ],
+    "category": "Support"
+  }
+]

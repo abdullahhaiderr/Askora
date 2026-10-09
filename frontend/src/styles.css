@@ -1,0 +1,33 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root { font-family:'Inter',sans-serif; color-scheme:light; --base:#f8f9f7;--surface:#ffffff;--panel:#fdfefd;--ink:#202b29;--muted:#788381;--line:#e5eae7; }
+:root.dark { color-scheme:dark;--base:#121c1b;--surface:#1b2826;--panel:#172221;--ink:#f0f5f2;--muted:#a3b0aa;--line:#324340; }
+@layer components {
+ .container-wrap { @apply w-full max-w-[1320px] mx-auto px-5 sm:px-8 lg:px-12; }
+ .bg-base { background-color:var(--base); } .bg-surface { background-color:var(--surface); }.bg-panel{background-color:var(--panel);}
+ .text-ink{color:var(--ink);}.text-muted{color:var(--muted);}.border-line{border-color:var(--line);}.bg-line{background-color:var(--line);}
+ .brandmark { @apply h-[35px] w-[35px] inline-flex items-center justify-center rounded-[11px] bg-teal-600 text-white; }
+ .brandmark svg{@apply w-[30px] h-[30px];}
+ .nav-pill { @apply py-2 px-[17px] text-[12px] font-medium rounded-full transition-colors; color:var(--muted); }
+ .nav-pill:hover {color:var(--ink)} .nav-active {background-color:var(--base);color:var(--ink);box-shadow:0 1px 2px #00000006;}
+ .icon-button{@apply h-9 w-9 rounded-full inline-flex items-center justify-center border border-transparent hover:border-line transition-colors; color:var(--ink);}
+ .btn-primary{@apply inline-flex items-center justify-center gap-2 rounded-full bg-teal-600 hover:bg-teal-700 text-white px-[18px] py-2.5 font-semibold transition-colors text-[12px] disabled:opacity-50 disabled:cursor-not-allowed;}
+ .btn-secondary{@apply inline-flex items-center justify-center gap-2 rounded-full border hover:border-teal-400 px-[17px] py-2.5 font-semibold transition-colors text-[12px];color:var(--ink);background:var(--surface);border-color:var(--line);}
+ .eyebrow{@apply uppercase tracking-[.14em] text-[11px] font-bold flex items-center gap-2; color:#347d72;}
+ .section-title{@apply text-[clamp(32px,4vw,49px)] font-semibold mt-5 tracking-[-.06em] leading-[1.15];color:var(--ink)}
+ .section-title em{@apply font-serif font-normal text-teal-600 dark:text-teal-400;}
+ .chat-shell{@apply overflow-hidden rounded-[22px] border; border-color:var(--line); background:var(--surface);box-shadow:0 11px 45px rgba(20,60,51,.035);}
+ .chip{@apply inline-flex gap-1.5 items-center rounded-full border px-3 py-2 text-[11px] font-medium transition-colors text-left disabled:opacity-40; border-color:var(--line);color:var(--ink);background:var(--surface);}
+ .chip:hover{@apply border-teal-400 text-teal-600;}
+ .dot{@apply h-1.5 w-1.5 rounded-full bg-teal-400 animate-bounce;}.dot:nth-child(2){animation-delay:.15s}.dot:nth-child(3){animation-delay:.3s}
+ .prose-chat p+p{@apply mt-2.5;} .prose-chat strong{@apply font-semibold;} .prose-chat ul{@apply list-disc ml-4 my-2;} .prose-chat ol{@apply list-decimal ml-4 my-2;} .prose-chat a{@apply break-all;} .prose-chat code{@apply text-xs break-all;}
+ .small-icon{@apply h-11 w-11 rounded-xl bg-teal-50 dark:bg-[#23413d] flex items-center justify-center text-teal-600 dark:text-teal-400;}
+ .feature-card{@apply rounded-2xl border p-6 transition-colors hover:border-teal-400; border-color:var(--line);background:var(--surface);}
+ .feature-link{@apply inline-flex gap-2 items-center text-teal-600 dark:text-teal-400 font-semibold mt-6 text-[12px];}
+ .field{@apply w-full min-w-0 rounded-xl border outline-none py-3 px-3.5 text-[13px] focus:border-teal-400 transition-colors; border-color:var(--line);background:var(--base);color:var(--ink);}
+ .input-label{@apply flex flex-col gap-2 text-[12px] font-semibold;color:var(--ink);}
+ .small-action{@apply inline-flex gap-1.5 items-center text-[12px] ml-3 hover:text-teal-600 disabled:opacity-40;color:var(--muted);}
+}
+@keyframes messageIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.animate-message{animation:messageIn .25s ease-out both}
+@media (prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important;}}
+button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #5c9e91;outline-offset:2px;}
